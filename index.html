@@ -16,6 +16,40 @@
     <!-- Custom styles for this template -->
     <link href="css/calderon.css" rel="stylesheet">
 
+    <style type="text/css">
+
+      .imagen_servicio{
+        width: inherit !important;
+      }
+      
+      section {
+        padding: 100px 0;
+      }
+
+      .navbar-dark .navbar-brand {
+          color: red !important;
+      }
+
+      .navbar-dark .navbar-nav .nav-link {
+          color: #383d41 !important
+      }
+ 
+
+      .bg-dark {
+          background-color: #fff!important;
+          border-bottom: 1px solid #2125292e;
+          padding: 15px 0px;
+      }
+
+      @media (min-width: 992px)
+      {
+      .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 25px;
+            padding-left: 25px;
+        }
+      }
+    </style>
+
   </head>
 
   <body id="page-top">
@@ -33,13 +67,13 @@
               <a class="nav-link js-scroll-trigger" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#nuestros_servicios">Nuestros servicios</a>
+              <a class="nav-link js-scroll-trigger" href="#nuestros_servicios">Servicios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#quienes_somos">Quiénes somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#casos_exito">Casos de éxito</a>
+              <a class="nav-link js-scroll-trigger" href="#casos_exito">Casos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contacto">Contacto</a>
@@ -48,14 +82,15 @@
         </div>
       </div>
     </nav>
- 
+
 
     <!-- Home -->
     <section id="home">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>About this page</h2>
+          <div class="col-lg-12 mx-auto">
+            <h5>SOLUCIONES FINANCIERAS</h5>
+            <h2>Beex</h2>
             <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
             <ul>
               <li>Clickable nav links that smooth scroll to page sections</li>
@@ -65,6 +100,13 @@
             </ul>
           </div>
         </div>
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <button class="btn btn-primary">CONTACTARSE</button>
+            <button class="btn btn-primary">QUÍENES SOMOS</button>
+
+          </div>
+        </div>
       </div>
     </section>
 
@@ -72,9 +114,32 @@
     <section id="nuestros_servicios">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Services we offer</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+          <div class="col-lg-12 mx-auto text-center">
+            <h5>NUESTROS</h5>
+            <h2>Servicios</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 mx-auto ">
+             <img class="imagen_servicio" src="./img/imagen.jpg"><br>
+             <h4>Modelos Estadísticos</h4><br>
+             <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>  
+          </div>
+          <div  class="col-lg-3 mx-auto ">
+             <img class="imagen_servicio" src="./img/imagen.jpg"><br>
+             <h4>Modelos de Riesgo</h4><br>
+             <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>   
+
+          </div>
+          <div  class="col-lg-3 mx-auto ">
+             <img class="imagen_servicio" src="./img/imagen.jpg"><br>
+             <h4>Data Science</h4><br>
+             <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>   
+          </div>
+          <div  class="col-lg-3 mx-auto ">
+             <img class="imagen_servicio" src="./img/imagen.jpg"><br>
+             <h4>Otros Servicios</h4><br>
+             <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>   
           </div>
         </div>
       </div>
@@ -83,34 +148,133 @@
     <!-- Quienes somos -->
     <section id="quienes_somos">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        <div class="row" style="background-color: green">
+          <div class="col-lg-6 offset-lg-6" style="background-color: grey">
+            <h5>NUESTROS INTEGRANTES</h5>
+            <h2>Quíenes somos?</h2>
+          </div>
+        </div>
+        <div class="row" style="background-color: red">
+          <div class="col-lg-6 mx-auto text-center" style="background-color: blue">
+            <div class="row">
+              <div class="col-lg-6" style="background-color: pink">
+                <img class="imagen_servicio" src="./img/imagen.jpg"> 
+                <h4>Manuel Calderon</h4><br>
+                <h6>Lead designer</h6><br>
+                <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>
+              </div>
+              <div class="col-lg-6" style="background-color: grey">
+                <img class="imagen_servicio" src="./img/imagen.jpg"> 
+                 <h4>Manuel Calderon</h4><br>
+                <h6>Lead designer</h6><br>
+                <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mx-auto" style="background-color: yellow">
+              <p> asda asd asd asda sdadasd asdasdasd s</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Confianza</li>
+                <li class="list-group-item">Responsabilidad</li>
+                <li class="list-group-item">Conocimiento</li> 
+              </ul>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Quienes somos -->
-    <section id="quienes_somos">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
+ 
     <!-- Casos exito -->
     <section id="casos_exito">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+      <!--
+      <div style="background-color: black">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto text-center">
+              <h5>COMO TRABAJA BEEX</h5>
+              <h2>Casos de éxito</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mx-auto ">
+               <h4>Modelos Estadísticos</h4><br>
+               <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>  
+            </div>
+            <div  class="col-lg-6 mx-auto ">
+               <h4>Modelos de Riesgo</h4><br>
+               <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>   
+            </div>
+          </div>
+        </div>
+      </div>-->
+      <div style="background-color: black;  padding: 50px;">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-12 mx-auto text-center">
+              <h5>COMO TRABAJA BEEX</h5>
+              <h2>Casos de éxito</h2>
+            </div>
+          </div>
+
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+           
+                  <div class="row">
+                    <div class="col-lg-6 mx-auto ">
+                       <h4>Modelos Estadísticos</h4><br>
+                       <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>  
+                    </div>
+                    <div  class="col-lg-6 mx-auto ">
+                       <h4>Modelos de Riesgo</h4><br>
+                       <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>   
+                    </div>
+                  </div>
+
+              </div>
+              <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-6 mx-auto ">
+                       <h4>Modelos Estadísticos</h4><br>
+                       <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>  
+                    </div>
+                    <div  class="col-lg-6 mx-auto ">
+                       <h4>Modelos de Riesgo</h4><br>
+                       <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>   
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto ">
+                       <h4>Modelos Estadísticos</h4><br>
+                       <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>  
+                    </div>
+                    <div  class="col-lg-6 mx-auto ">
+                       <h4>Modelos de Riesgo</h4><br>
+                       <p> asda asda asd asdasda sdas asda sdasd asdasdasdas</p>   
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <!-- Left and right controls
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a> -->
+
           </div>
         </div>
       </div>
@@ -119,18 +283,60 @@
     <!-- Contacto -->
     <section id="contacto">
       <div class="container">
+
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <div class="col-lg-12 mx-auto text-center">
+            <h5>ESCRIBENOS</h5>
+            <h2>Contacto</h2>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-lg-4 mx-auto text-center">
+             <p> Telefono </p>  
+             <p > 1135479890 <br> 21584547 </p>  
+          </div>
+          <div  class="col-lg-4 mx-auto text-center">
+             <p> Direccion</p>  
+             <p> Reconquista 826</p>   
+          </div>
+          <div  class="col-lg-4 mx-auto text-center">
+             <p> Email</p>  
+             <p>Manuel@beex.com</p>   
+          </div>
+        </div>
+      </div>
+      <div style="background-color: black; padding: 50px;">
+        <div class="container">
+          <div class="row">
+
+            <div  class="col-lg-6 mx-auto text-center">
+              <div class="form-group">
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre*"> 
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email*"> 
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="asunto" name="asunto" placeholder="Asunto*"> 
+              </div>
+            </div>
+            <div  class="col-lg-6 mx-auto text-center">
+              <div class="form-group"> 
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje*"></textarea>
+              </div>
+              <div class="form-group"> 
+                <input type="submit" class="btn btn-primary" value="Enviar">
+              </div>
+            </div>
+        </div> 
       </div>
     </section>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
+        <p class="m-0 text-center text-white">Iconos</p><br>
         <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
       </div>
       <!-- /.container -->
