@@ -4,16 +4,145 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
-header {
+header 
+{
   padding: 154px 0 100px;
 }
 
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
-}
 
 section {
   padding: 150px 0;
+}
+
+body
+{
+	font-size: 18px;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+section 
+{
+	padding: 50px 0;
+}
+
+.subtitulo_seccion
+{
+	font-size: 14px;
+	color: blue;
+}
+
+.carousel-item img 
+{
+    height: 600px;
+    width: 100%;
+    /*filter: sepia(100%) hue-rotate(190deg) saturate(500%) !important;*/
+    background-color: green;
+    mix-blend-mode: color;
+     
+}
+
+
+.slide-helpext
+{
+  position:absolute;
+  top:20%;
+  left:60px;
+}
+
+
+/* Servicios */
+
+.titulo_servicio
+{
+	text-align: center;
+	padding: 10px 0px;
+	font-weight: bold;
+}
+
+.imagen_servicio
+{
+	width: inherit !important;
+    height: 158px;
+
+}
+
+/* Quienes somos */
+
+.nombre_quienes_somos
+{
+	text-align: center;
+	padding: 10px 0px;
+	font-weight: bold;
+}
+
+.imagen_quienes_somos
+{
+	width: inherit !important;
+    height: 280px;
+}
+
+.item_quienes_somos
+{
+	font-weight: bold;
+}
+
+/* Casos exito */
+
+.nombre_quienes_somos
+{
+	text-align: center;
+	padding: 10px 0px;
+	font-weight: bold;
+}
+ 
+
+#carrusel_casos_exito
+{ 
+	padding: 20px 20px; 
+	color: white;
+}
+
+
+.logo_empresa_caso_exito{
+	width: 50px !important;
+	height: 50px !important;
+}
+
+.carousel-indicators
+{
+	bottom: 10px;
+}
+
+
+/* Contacto */
+
+.icono_contacto
+{
+	color: blue !important;
+}
+ 
+#contacto{
+	padding-bottom: 0px !important;
+}
+
+/* FOOTER */
+
+.footer{
+	background-color: black !important;	
+}
+
+.iconos_footer{
+	padding: 10px 20px;
+}
+
+/* Media querys */
+
+
+@media (min-width: 992px) {
+  
+  header 
+  {
+    padding: 156px 0 100px;
+  }
+
 }
