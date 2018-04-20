@@ -479,30 +479,40 @@
       </div>
       <div style="background-color: black; padding: 50px;">
         <div class="container">
+          <form id="contactForm" name="sentMessage" novalidate>
           <div class="row">
-            <div  class="  col-lg-2 mx-auto text-center"></div>
-            <div  class="  col-lg-4 mx-auto text-center">
-              <div class="form-group">
-                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre*"> 
+            
+              <div  class="  col-lg-2 mx-auto text-center"></div>
+              <div  class="  col-lg-4 mx-auto text-center">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre*" required data-validation-required-message="Por favor ingresá tu nombre."> 
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email*"required data-validation-required-message="Por favor ingresá tu email.">
+                    <p class="help-block text-danger"></p> 
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto*"> 
+                </div>
               </div>
-              <div class="form-group">
-                <input type="email" class="form-control" id="email" name="email" placeholder="Email*"> 
+              <div  class="col-lg-4  mx-auto text-center">
+                <div class="form-group"> 
+                  <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje*" required data-validation-required-message="Por favor ingresá tu mensaje."></textarea>
+
+                </div>
+                <div class="form-group"> 
+                  <div id="success"></div>
+  
+                    <button id="sendMessageButton" class="btn btn-xl btn-primary" type="submit">Enviar Mensaje</button>
+                </div>
               </div>
-              <div class="form-group">
-                <input type="email" class="form-control" id="asunto" name="asunto" placeholder="Asunto*"> 
-              </div>
-            </div>
-            <div  class="col-lg-4  mx-auto text-center">
-              <div class="form-group"> 
-                <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje*"></textarea>
-              </div>
-              <div class="form-group"> 
-                <input type="submit" class="btn btn-primary" value="Enviar">
-              </div>
-            </div>
-            <div  class="  col-lg-2 mx-auto text-center"></div>
+              <div  class="  col-lg-2 mx-auto text-center"></div>
+             
         </div> 
+        </form>
       </div>
+    </div> 
 
     </section>
     <!-- Footer -->
@@ -530,6 +540,10 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
   </body>
 
