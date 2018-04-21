@@ -16,8 +16,12 @@ section {
 
 body
 {
-	font-size: 18px;
-	font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+	font-family: 'Rajdhani';
 }
 
 section 
@@ -25,10 +29,39 @@ section
 	padding: 50px 0;
 }
 
-.subtitulo_seccion
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    padding: 15px 30px;
+}
+
+.nav-link.active {
+    border-top: 2px solid #008ed6 !important;
+}
+
+.subtitulo_carrusel
 {
 	font-size: 14px;
 	color: blue;
+	font-family: 'Source Sans Pro' !important;
+	font-weight: bold;
+	color:  #008ed6 !important;
+}
+
+.titulo_carrusel
+{
+	font-family: 'Rajdhani';
+	font-weight: 300;
+    color: white;
+    font-size: 72px;
+
+}
+
+.texto_carrusel
+{
+	font-family: 'Source Sans Pro' !important;
+    color: #999999;
+    font-size: 18px;
+    width: 70%;
 }
 
 .carousel-item img 
@@ -36,7 +69,6 @@ section
     height: 600px;
     width: 100%;
     /*filter: sepia(100%) hue-rotate(190deg) saturate(500%) !important;*/
-    background-color: green;
     mix-blend-mode: color;
      
 }
@@ -47,93 +79,198 @@ section
   position:absolute;
   top:20%;
   left:60px;
+  z-index: 100;
 }
 
+
+.btn-primary {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: white !important;
+}
+
+ 
+.subtitulo_seccion
+{
+	font-size: 14px;
+	font-family: 'Source Sans Pro' !important;
+	font-weight: bold;
+	color:  #008ed6 !important;
+
+}
+
+.titulo_seccion
+{
+	font-size:  48px;
+	font-family: 'Rajdhani';
+	color:  #008ed6 !important;
+    
+}
+
+.body_seccion{
+	padding-top: 20px;
+}
+
+.list-group-flush .list-group-item
+{
+	border: none;
+	font-size: 18px;
+	font-family: 'Source Sans Pro';
+	font-weight: normal;
+}
+
+.form-control{
+
+	    background-color: #04050b00;
+    padding: 10px 20px;
+        border: 1px solid;
+}
 
 /* Servicios */
 
-.titulo_servicio
-{
-	text-align: center;
-	padding: 10px 0px;
-	font-weight: bold;
-}
+	.titulo_servicio
+	{
+		text-align: center;
+		padding: 20px 0px; 
+		font-family: 'Source Sans Pro';
+	    font-size: 24px;
+	}
 
-.imagen_servicio
-{
-	width: inherit !important;
-    height: 158px;
+	.texto_servicio
+	{
+		text-align: center;  
+		font-family: 'Source Sans Pro';
+	    font-size: 18px;
+	    color: #999999;
+	    padding: 0px 20px;
+	}
 
-}
+
+	.imagen_servicio
+	{
+		width: inherit !important;
+	    height: 158px;
+
+	}
 
 /* Quienes somos */
 
-.nombre_quienes_somos
-{
-	text-align: center;
-	padding: 10px 0px;
-	font-weight: bold;
-}
+	.nombre_quienes_somos
+	{
+		text-align: center;
+		padding: 10px 0px;
+		font-weight: bold;
+	}
 
-.imagen_quienes_somos
-{
-	width: inherit !important;
-    height: 280px;
-}
+	.imagen_quienes_somos
+	{
+		width: inherit !important;
+	    height: 280px;
+	}
 
-.item_quienes_somos
-{
-	font-weight: bold;
-}
+	.item_quienes_somos
+	{
+		font-weight: bold;
+	}
+
+	.texto_quienes_somos
+	{
+		font-family: 'Source Sans Pro';
+	    font-size: 18px;
+	    color: #999999;
+	    width: 90%;
+	}
 
 /* Casos exito */
+	#casos_exito
+	{
+		min-height: 600px;
+	}
+	
+	.nombre_quienes_somos
+	{
+		text-align: center;
+		padding: 10px 0px;
+		font-weight: bold;
+	}
+	 
 
-.nombre_quienes_somos
-{
-	text-align: center;
-	padding: 10px 0px;
-	font-weight: bold;
-}
- 
-
-#carrusel_casos_exito
-{ 
-	padding: 20px 20px; 
-	color: white;
-}
+	#carrusel_casos_exito
+	{ 
+		padding: 20px 20px; 
+		color: white;
+	}
 
 
-.logo_empresa_caso_exito{
-	width: 50px !important;
-	height: 50px !important;
-}
+	.logo_empresa_caso_exito{
+		width: 50px !important;
+		height: 50px !important;
+	}
 
-.carousel-indicators
-{
-	bottom: 10px;
-}
+	.carousel-indicators
+	{
+		bottom: 10px;
+	}
 
+	#casos_exito
+	{
+		background-image: url("../img/casos/casos.jpg");
+	}
+
+	.texto_casos
+	{
+		font-family: 'Source Sans Pro';
+		font-size: 22px !important;
+		
+		font-style: italic;
+	}
+
+	.titulo_casos
+	{
+		font-family: 'Source Sans Pro';
+		font-size: 14px !important;
+		font-weight: bold; 
+
+    margin-top: 8px;
+
+	}
+
+
+	
+	.nombre_casos
+	{
+		font-family: 'Source Sans Pro';
+		font-size: 16px !important;
+
+	}
 
 /* Contacto */
 
-.icono_contacto
-{
-	color: blue !important;
-}
- 
-#contacto{
-	padding-bottom: 0px !important;
-}
+	.icono_contacto
+	{
+		color: #008ed6 !important;
+	}
+	 
+	#contacto{
+		padding-bottom: 0px !important;
+	}
 
-/* FOOTER */
+	/* FOOTER */
 
-.footer{
-	background-color: black !important;	
-}
+	.footer{
+		background-color: #0d0d13 !important;	
+		padding-bottom: 20px;
+	}
 
-.iconos_footer{
-	padding: 10px 20px;
-}
+	.iconos_footer{
+		padding: 10px 20px;
+	}
+
+	.datos_contacto{
+		color: #999999;
+	}
 
 /* Media querys */
 
